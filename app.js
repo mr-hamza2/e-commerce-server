@@ -36,7 +36,7 @@ cloudinary.config({
 
 const app = express();
 const port = process.env.PORT || 3000;
-const mongoURI = process.env.MONGO_URI  || "mongodb://localhost:27017/"
+const mongoURI = process.env.MONGO_URI  || "mongodb+srv://Hamza:H%40mza064@e-commerce.chfuzua.mongodb.net/"
 const stripeKey = process.env.STRIPE_KEY || "dfdifjdjfij@@fkdjfkdjfkjdkfk";
 
 connectDB(mongoURI)
